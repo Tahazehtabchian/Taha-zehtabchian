@@ -6,14 +6,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Two sibling folders, each a single self-contained `index.html`:
 
-- `taha 2026/` — the live project. Git repo, remote `zehtabchiantaha964-droid/Taha-2026`, published via GitHub Pages at  https://tahazehtabchian.github.io/Taha-zehtabchian/iq-game/
+- `taha zehtabchian/` — the live project. Git repo, remote `Tahazehtabchian/Taha-zehtabchian`, published via GitHub Pages at https://tahazehtabchian.github.io/Taha-zehtabchian/
 - `iq-game/` — an untracked copy of the same file (byte-identical at last check). Not a separate project; if you change one and the copy is meant to stay in sync, copy the file over rather than editing twice.
 
 ## Commands
 
 There is no build, no package manager, no test runner, and no dependencies. `.gitignore` mentions `node_modules/` but none exists.
 
-- Run: open `taha 2026/index.html` directly in a browser (`start "taha 2026/index.html"`).
+- Run: open `taha zehtabchian/index.html` directly in a browser (`start "taha zehtabchian/index.html"`).
 - Deploy: commit and push to `origin/main` — GitHub Pages serves the repo root.
 
 Verification is manual: open the page, check both languages (top-right toggle), both themes, and a full run through the test.
